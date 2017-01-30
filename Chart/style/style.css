@@ -1,0 +1,170 @@
+
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.5px; 
+  color: rgb(61, 61, 61);
+}
+
+.container {
+  height: 100%;
+  display: block;
+}
+
+
+.wrapper {
+  text-align: center;
+  height: 300px;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -250px;
+  background-color: rgb(247, 248, 248);
+
+}
+
+.wrapper .graph {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .graph .block {
+  position: relative;
+  width: 75px;
+  height: 250px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.wrapper .graph .block .shape {
+  position: absolute;
+  width: 75px;
+  display: table-cell;
+  bottom: 0px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.shape1 {
+  height: 10px;
+}
+.shape2 {
+  height: 25px;
+}
+.shape3 {
+  height: 50px;
+}
+.shape4 {
+  height: 75px;
+}
+.shape5 {
+  height: 100px;
+}
+.shape6 {
+  height: 125px;
+}
+.shape7 {
+  height: 150px;
+}
+.shape8 {
+  height: 175px;
+}
+.shape9 {
+  height: 200px;
+}
+
+/**/
+.shape-color-1 {
+  background-color: rgba(110, 190, 141, 1);
+}
+
+.shape-color-2 {
+  background-color: rgba(110, 190, 141, 0.6);
+}
+
+.shape-color-3 {
+  background-color: rgba(110, 190, 141, 0.3);
+}
+
+.shape:hover {
+  background-color: rgba(110, 190, 141, 0.2);
+  z-index: 3;
+}
+
+/**/
+
+.wrapper .graph .block .title {
+  position: absolute;
+  width: 75px;
+  height: 30px;
+  line-height: 30px;
+  bottom: -40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 0.5px; 
+  text-transform: uppercase;
+  color: rgb(61, 61, 61);
+}
+
+.wrapper .graph .lines {
+  width: 100%;
+  height: 0px;
+  position: relative;
+}
+
+.wrapper .graph .line {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  border-top: 1px dashed rgb(220, 220, 220);
+  bottom: 8px;
+}
+
+.wrapper .graph .lines .line1 {
+  bottom: 8px;
+}
+
+.wrapper .graph .lines .line2 {
+  bottom: 58px;
+}
+
+.wrapper .graph .lines .line3 {
+  bottom: 108px;
+}
+
+.wrapper .graph .lines .line4 {
+  bottom: 158px;
+}
+
+.wrapper .graph .lines .line5 {
+  bottom: 208px;
+}
+
+.wrapper .graph .lines .line6 {
+  bottom: 258px;
+}
+
+
+.line .number {
+  float: left;
+  margin-left: 20px;
+  margin-top: -25px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 0.5px; 
+  text-transform: uppercase;
+  color: rgb(61, 61, 61);
+}
+
+
+
