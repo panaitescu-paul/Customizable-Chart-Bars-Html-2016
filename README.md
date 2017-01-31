@@ -1,4 +1,5 @@
 # Chart Display
+Build custom Charts.
 
 1. custom categories
 2. custom scales
