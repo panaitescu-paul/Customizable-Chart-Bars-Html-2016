@@ -1,4 +1,18 @@
 
+/* Additional colors 
+
+*replace:
+
+rgba(76, 198, 225, 1);  //blue
+
+*with:
+
+rgba(247, 176, 64, 1);  //orange
+rgba(247, 75, 64, 1);   //red
+rgba(110, 190, 141, 1); //green
+
+
+*/
 
 body {
   background-color: rgb(255, 255, 255);
@@ -82,19 +96,19 @@ body {
 
 /**/
 .shape-color-1 {
-  background-color: rgba(110, 190, 141, 1);
+  background-color: rgba(76, 198, 225, 1);
 }
 
 .shape-color-2 {
-  background-color: rgba(110, 190, 141, 0.6);
+  background-color: rgba(76, 198, 225, 0.6);
 }
 
 .shape-color-3 {
-  background-color: rgba(110, 190, 141, 0.3);
+  background-color: rgba(76, 198, 225, 0.3);
 }
 
 .shape:hover {
-  background-color: rgba(110, 190, 141, 0.2);
+  background-color: rgba(76, 198, 225, 0.2);
   z-index: 3;
 }
 
