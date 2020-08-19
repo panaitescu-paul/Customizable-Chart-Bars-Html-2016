@@ -1,11 +1,19 @@
 # Customizable Chart Bars - Html - 2016
-Build custom Charts.
+### Easy to customize Charts.
 
-# Features:
+## Features:
 1. Custom categories
 2. Custom scales
 3. Multiple colors
 
+## Technologies:
+- HTML
+- CSS
+
+## Tools:
+- Sublime Text
+
+## Preview:
 
 ![alt tag](https://github.com/panaitescu-paul/chart/blob/master/Process/1.png)
 ![alt tag](https://github.com/panaitescu-paul/chart/blob/master/Process/2.png) 
